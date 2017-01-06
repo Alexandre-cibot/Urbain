@@ -1,0 +1,30 @@
+.main-navigation {
+	position: absolute;
+	width:120px;
+	height: 100%;
+	background-color: #333b48;
+}
+
+.navigation-content{
+	position: relative;
+	top:25%;
+	border:1px solid white;
+}
+
+.navigation-content li {
+	position: relative;
+	height: 120px;
+	text-align: center;
+	border:1px solid white;
+}
+
+.navigation-content li p {
+  position: absolute;
+  border:1px solid white;
+  width: 70px;
+  margin: 0 25px; /* trouver une maniere plus propre.*/
+  left:0%;
+  top: 50%; /* poussé de la moitié de hauteur du référent */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  /*transform: translateX(-50%);  /*tiré de la moitié de sa propre hauteur */
+}
