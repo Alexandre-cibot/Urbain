@@ -1,28 +1,32 @@
 .main-navigation {
-	position: absolute;
+	position: fixed;
 	width:120px;
 	height: 100%;
 	background-color: #333b48;
+	-webkit-box-shadow: 10px 2px 14px -6px rgba(0,0,0,0.44);
+-moz-box-shadow: 10px 2px 14px -6px rgba(0,0,0,0.44);
+box-shadow: 10px 2px 14px -6px rgba(0,0,0,0.44);
 }
 
 .navigation-content{
 	position: relative;
 	top:25%;
-	border:1px solid white;
+	/*border:1px solid grey;*/
 }
 
 .navigation-content li {
 	position: relative;
 	height: 120px;
 	text-align: center;
-	border:1px solid white;
+	/*border:1px solid grey;*/
 }
 
-.navigation-content li p {
+.navigation-content li img {
   position: absolute;
-  border:1px solid white;
-  width: 70px;
-  margin: 0 25px; /* trouver une maniere plus propre.*/
+  /*border:1px solid grey;*/
+  width: 45px;
+  height:auto;
+  margin: 0 34px; /* trouver une maniere plus propre.*/
   left:0%;
   top: 50%; /* poussé de la moitié de hauteur du référent */
   transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
