@@ -1,4 +1,5 @@
 .main-navigation {
+	z-index:900;
 	position: fixed;
 	width:120px;
 	height: 100%;

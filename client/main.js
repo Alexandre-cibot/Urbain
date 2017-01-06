@@ -20,9 +20,21 @@ import './main.html';
 //     instance.counter.set(instance.counter.get() + 1);
 //   },
 // });
-var nb_img = 1; 
 Template.Displayer.helpers({
 	allImages: function () {
 		return Photos.find();
 	},
+})
+
+// TODO Remplacer les logo ---> Vert / blanc
+Template.Navigation.events({
+	'click .home': function(event){
+		alert('Click sur home')
+	},
+	'click .heart': function(event){
+		alert('click sur heart')
+	},
+	'click .star': function(event){
+		alert('click sur star')
+	}
 })
